@@ -1,4 +1,5 @@
-# getssq
+# getssq 
+[![npm](https://img.shields.io/npm/v/dxrmb)](https://www.npmjs.com/package/dxrmb)
 
 `getssq` 是一个获取中国双色球历史数据的工具包，方便开发者进行进一步的数据分析和使用。
 
