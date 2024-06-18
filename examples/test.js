@@ -1,3 +1,3 @@
-const getSsqList = require("../dist/index.cjs")
+const getSsqList = require("../dist")
 
 getSsqList().then(console.log)
