@@ -1,5 +1,6 @@
-# getssq 
-[![npm](https://img.shields.io/npm/v/dxrmb)](https://www.npmjs.com/package/dxrmb)
+# getssq
+
+[![npm](https://img.shields.io/npm/v/getssq)](https://www.npmjs.com/package/getssq)
 
 `getssq` 是一个获取中国双色球历史数据的工具包，方便开发者进行进一步的数据分析和使用。
 
@@ -10,7 +11,6 @@
 ```sh
 npm install getssq
 ```
-
 
 或者使用 yarn 进行安装：
 
@@ -23,7 +23,9 @@ yarn add getssq
 在你的项目中引入 `getssq` 并调用它：
 
 ```ts
-import getssq from 'getssq';
+import getssq from "getssq";
+// 或者
+const getssq = require("getssq");
 
 async function main() {
   const data = await getssq();
@@ -32,7 +34,6 @@ async function main() {
 
 main();
 ```
-
 
 ### 返回的数据结构
 
